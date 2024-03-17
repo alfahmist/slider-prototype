@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+#slider {
+    overflow-x: scroll;
+    background: red;
+    min-width: 100px;
+    max-width: 200px;
+    min-height: 100px;
+    max-height: 100px;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+span {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+#rounded-container {
+    display: flex;
+    flex-direction: row;
+}
+.rounded {
+    height: 20px;
+    width: 20px;
+    background: #ddd;
+    border-radius: 100%;
+}
+
+.active {
+    background-color: #888;
+}
